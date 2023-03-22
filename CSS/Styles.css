@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+
+}
+
+.container {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 5px solid #000;
+  border-radius: 3%;
+  color: #060606;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  height: 100px;
+  width: 250px;
+}
